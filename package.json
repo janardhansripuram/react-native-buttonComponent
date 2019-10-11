@@ -1,0 +1,71 @@
+{
+  "name": "react-native-Button-states",
+  "version": "0.2.30",
+  "description": "A Beautiful, Customizable React Native Button component for iOS & Android",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && babel src/ -d dist/",
+    "test": "jest"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janardhansripuram/react-native-buttonComponent.git"
+  },
+  "keywords": [
+    "react button",
+    "react-native",
+    "react-native-button-component",
+    "react-native-button",
+    "react native button",
+    "button",
+    "component",
+    "react-component",
+    "react-native-component",
+    "ios",
+    "android"
+  ],
+  "author": "Janardhan <janardhansripuram@gmail.com> (https://github.com/janardhansripuram)",
+  "license": "MIT",
+  "homepage": "",
+  "rnpm": {
+    "commands": {
+      "postlink": "node ./node_modules/react-native-button-component/scripts/link.js"
+    }
+  },
+  "dependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "lodash": "^4.17.14",
+    "react-native-circular-progress": "^1.3.0",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-spinkit": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "eslint": "^3.12.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "jest": "20.0.4",
+    "jest-react-native": "^18.0.0",
+    "prop-types": "^15.6.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.1",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "rimraf": "^2.6.1"
+  },
+  "jest": {
+    "preset": "jest-react-native",
+    "modulePathIgnorePatterns": [
+      "ButtonExample/node_modules"
+    ]
+  }
+}
